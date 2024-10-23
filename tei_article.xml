@@ -4,7 +4,10 @@
 <fileDesc> 
 <titleStmt>
 <title>Titre de l'article</title>
-<author>Auteur de l'article</author>
+<author>
+<persName>Auteur de l'article</persName>
+<att.naming role="journaliste">Medialab de l'information de France Televisions</att.naming>
+</author>
 </titleStmt>
 <publicationStmt>
 <publisher>Meta-media</publisher>
