@@ -3,7 +3,12 @@
 <teiHeader>
 <fileDesc> 
 <titleStmt>
-<title></title>
+<title>Titre de l'article</title>
+<author>Auteur de l'article</author>
 </titleStmt>
+<publicationStmt>
+<publisher>Meta-media</publisher>
+</publicationStmt>
 </fileDesc>
 </teiHeader>
+</TEI>
