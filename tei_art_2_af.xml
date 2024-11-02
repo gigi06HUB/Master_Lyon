@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Législatives : Entre Matriochka, edits et trackers, la drôle de bataille des élections sur les réseaux sociaux</title>
+                <author>
+                    <persName>Aude Nevo</persName>
+                    <att.naming role="journaliste">MediaLab de l’Information de France Télévisions</att.naming>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Meta-Media</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <titleStmt>
+                        <title xml:lang="fr">Les nouvelles start-ups de l'info : le futur du journalisme ?</title>
+                        <author>Aude Nevo</author>
+                        <att.naming role="journaliste">MediaLab de l’Information de France Télévisions</att.naming>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Meta-Media</publisher>
+                        <date type="16-07-2023">14 Juin 2024</date>
+                        <authority>France Télévisions</authority>
+                    </publicationStmt>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+</TEI>
