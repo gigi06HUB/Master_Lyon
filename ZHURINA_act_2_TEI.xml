@@ -28,4 +28,140 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+
+    <!-- Autre version
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Au festival de journalisme de Couthures-sur-Garonne, les créateurs de contenus sur le devant de la scène</title>
+                <author>Alexandra Klinnik</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>MediaLab de l’Information de France Télévisions</authority>
+                <date when="2024-07-16">16 juillet 2024</date>
+                <idno type="url">https://www.meta-media.fr/2024/07/16/au-festival-de-journalisme-de-couthures-sur-garonne-les-createurs-de-contenus-sur-le-devant-de-la-scene.html</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Article de blog publié sur Meta-Media, plateforme de France Télévisions</p>
+                <graphic url="https://www.meta-media.fr/wp-content/uploads/sites/33/2024/07/carte-du-paysage-mediatique-francais.jpeg?w=600"
+                        alt="L'homme regarde la carte du paysage médiatique français"/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="description">
+                <p>Fini le mépris de la presse traditionnelle envers les YouTubeurs : le festival de journalisme de Couthures-sur-Garonne, organisé par le groupe Le Monde, et parrainé par Camelia Jordana, a ouvert grand ses portes aux créateurs de contenus dits informatifs.</p>
+            </div>
+
+    -->
+    <text>
+        <body>
+            <div type="actors">
+                <!-- Jean Massiet -->
+                <person xml:id="JM">
+                    <persName>
+                        <forename>Jean</forename>
+                        <surname>Massiet</surname>
+                    </persName>
+                    <roleDesc>
+                        <role>
+                            <desc>Vulgarisateur en politique</desc>
+                        </role>
+                        <role>
+                            <desc>Streamer</desc>
+                            <orgName>Twitch</orgName>
+                        </role>
+                        <role>Influenceur</role>
+                        <role>Producteur</role>
+                        <role>Chef d’entreprise</role>
+                    </roleDesc>
+                </person>
+
+                <!-- Gaspard G -->
+                <person xml:id="GG">
+                    <persName>
+                        <forename>Gaspard</forename>
+                        <surname>G</surname>
+                    </persName>
+                    <roleDesc>
+                        <role>Créateur de contenu</role>
+                        <role>
+                            <desc>YouTubeur</desc>
+                            <orgName>YouTube</orgName>
+                        </role>
+                    </roleDesc>
+                </person>
+
+                <!-- Charlie Danger -->
+                <person xml:id="CD">
+                    <persName>
+                        <forename>Charlie</forename>
+                        <surname>Danger</surname>
+                    </persName>
+                    <roleDesc>
+                        <role>Inconnu</role>
+                    </roleDesc>
+                </person>
+
+                <!-- Paul Larrouturou -->
+                <person xml:id="PL">
+                    <persName>
+                        <forename>Paul</forename>
+                        <surname>Larrouturou</surname>
+                    </persName>
+                    <roleDesc>
+                        <role>
+                            <desc>Journaliste</desc>
+                            <orgName>TF1</orgName>
+                        </role>
+                    </roleDesc>
+                </person>
+
+                <!-- Anaïs Carayon -->
+                <person xml:id="AC">
+                    <persName>
+                        <forename>Anaïs</forename>
+                        <surname>Carayon</surname>
+                    </persName>
+                    <roleDesc>
+                        <role>
+                            <desc>Directrice de la rédaction</desc>
+                            <orgName>Urbania France</orgName>
+                        </role>
+                    </roleDesc>
+                </person>
+
+                <!-- William Audureau -->
+                <person xml:id="WA">
+                    <persName>
+                        <forename>William</forename>
+                        <surname>Audureau</surname>
+                    </persName>
+                    <roleDesc>
+                        <role>
+                            <desc>Journaliste</desc>
+                            <orgName>Le Monde</orgName>
+                        </role>
+                    </roleDesc>
+                </person>
+
+                <!-- Vincent Manilève -->
+                <person xml:id="VM">
+                    <persName>
+                        <forename>Vincent</forename>
+                        <surname>Manilève</surname>
+                    </persName>
+                    <roleDesc>
+                        <role>Journaliste</role>
+                    </roleDesc>
+                </person>
+            </div>
+
+            
+        </body>
+    </text>
+    
 </TEI>
