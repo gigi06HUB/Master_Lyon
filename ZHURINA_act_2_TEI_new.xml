@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/C:/Users/zhuri/Documents/Cours/Master/Loc%20Web/metamedia_article.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Au festival de journalisme de Couthures-sur-Garonne, les créateurs de
+                    contenus sur le devant de la scène</title>
+                <author>Zhurina Iuliia</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Université Jean Moulin Lyon 3</publisher>
+                <date type="-06-2024">6 november 2024</date>
+                <ref/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!--titleStmt-->
+                    <title xml:lang="fr">Au festival de journalisme de Couthures-sur-Garonne, les
+                        créateurs de contenus sur le devant de la scène</title>
+                    <author>Alexandra Klinnik</author>
+                    <affiliation type="journaliste">MediaLab de l’Information de France
+                        Télévisions</affiliation>
+                    <!--publicationStmt-->
+                    <publisher>Meta-Media</publisher>
+                    <date type="16-07-2023">16 juillet 2024</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+
+        <front>
+            <!--Intro-->
+            <div type="introduction" xml:id="intro">
+                <head>Au festival de journalisme de Couthures-sur-Garonne, les créateurs de contenus
+                    sur le devant de la scène</head>
+                <figure>
+                    <graphic
+                        url="https://www.meta-media.fr/wp-content/uploads/sites/33/2024/07/carte-du-paysage-mediatique-francais.jpeg?w=600"/>
+                    <desc>L'homme regarde la carte du paysage médiatique français</desc>
+                </figure>
+                <p> Fini le mépris de la presse traditionnelle envers les YouTubeurs : le festival
+                    de journalisme de Couthures-sur-Garonne, organisé par le groupe Le Monde, et
+                    parrainé par Camelia Jordana, a ouvert grand ses portes aux créateurs de
+                    contenus dits informatifs. </p>
+                <p> Jean Massiet, Gaspard G, et Charlie Danger, entre autres, ont répondu présents
+                    pour partager les « secrets de fabrication » de ceux qui captivent les jeunes
+                    sur les réseaux sociaux, surpassant ainsi les médias classiques. Leur influence
+                    sur l'information est telle qu'un intervenant s'interroge : « Est-il devenu has
+                    been, dans l'écosystème médiatique actuel, de raisonner encore en termes de
+                    journalisme traditionnel ? ». La frontière de plus en plus floue entre
+                    influenceur et journaliste ne mérite-t-elle pas d'être réévaluée ? </p>
+            </div>
+        </front>
+
+        <body>
+            <!--ACTEURS-->
+            <div type="acteurs">
+                
+                <!-- Jean Massiet -->
+                <p xml:id="JM">
+                    <name>
+                        <forename>Jean</forename>
+                        <surname>Massiet</surname>
+                    </name>
+                    <affiliation>Vulgarisateur en politique</affiliation>
+                    
+                    <affiliation>Streamer sur <name type="org">Twitch</name></affiliation>
+                    
+                    <affiliation>Influenceur</affiliation>
+                    
+                    <affiliation>Producteur</affiliation>
+                    
+                    <affiliation>Chef d’entreprise</affiliation>
+                </p>
+                
+                <!-- Gaspard G -->
+                <p xml:id="GG">
+                    <name>
+                        <forename>Gaspard</forename>
+                        <surname>G</surname>
+                    </name>
+                    <affiliation>Créateur de contenu</affiliation>
+                    
+                    <affiliation>Youtiber sur <name type="org">Youtube</name></affiliation>
+                </p>
+                
+                <!-- Charlie Danger-->
+                <p xml:id="CD">
+                    <name>
+                        <forename>Charlie</forename>
+                        <surname>Danger</surname>
+                    </name>
+                    <affiliation>Inconnu</affiliation>
+                </p>
+                
+                <!-- Paul Larrouturou -->
+                <p xml:id="PL">
+                    <name>
+                        <forename>Paul</forename>
+                        <surname>Larrouturou</surname>
+                    </name>
+                    <affiliation>Journaliste</affiliation>
+                    <orgName>TF1</orgName>
+                </p>
+                
+                <!-- Anaïs Carayon -->
+                <p xml:id="AC">
+                    <name>
+                        <forename>Anaïs</forename>
+                        <surname>Carayon</surname>
+                    </name>
+                    <affiliation>Directrice de la rédaction</affiliation>
+                    <orgName>Urbania France</orgName>
+                </p>
+                
+                <!-- William Audureau -->
+                <p xml:id="WA">
+                    <name>
+                        <forename>William</forename>
+                        <surname>Audureau</surname>
+                    </name>
+                    <affiliation>Journaliste</affiliation>
+                    <orgName>Le Monde</orgName>
+                </p>
+                
+                <!-- Vincent Manilève -->
+                <p xml:id="VM">
+                    <name>
+                        <forename>Vincent</forename>
+                        <surname>Manilève</surname>
+                    </name>
+                    <affiliation>Journaliste</affiliation>
+                </p>
+            </div>
+
+            <!--Paragraphe-->
+            <div type="paragraphe" xml:id="p1">
+                <head xml:id="h1">Journaliste ou influenceur : une étiquette fluctuante</head>
+                <figure>
+                    <graphic
+                        url="https://www.meta-media.fr/wp-content/uploads/sites/33/2024/07/449851724-1589373084964864-8052671598646707212-n.jpeg?w=600"/>
+                    <desc>Jean Massiet, vulgarisateur politique et Gaspard G, YouTubeur</desc>
+                </figure>
+                
+                <!-- Gaspard G -->
+                <p><emph rend="strong">Comment se définir par rapport à l’autre ?</emph></p>
+                
+                <quote xml:id="p1_GG_1" source="GG">
+                    <emph rend="italic">Cela dépend des jours et de la personne à qui je m’adresse</emph>
+                </quote>
+                <quote xml:id="p1_GG_2" source="GG">
+                    <emph rend="italic">Je m’efforce de fournir une couverture des actualités la plus objective possible, entouré de professionnels.</emph>
+                </quote>
+                <quote xml:id="p1_GG_3" source="GG">
+                    <emph rend="italic">Je n’étais pas conscient que tu étais aussi entouré</emph>
+                </quote>
+                
+                <!-- Jean Massiet -->
+                <quote xml:id="p1_JM_1" source="JM">
+                    <emph rend="italic">Mon métier va beaucoup plus loin parce que je suis aussi influenceur, producteur, chef d’entreprise</emph>
+                </quote>
+                
+                <!-- Gaspard G -->
+                <quote xml:id="p1_GG_4" source="GG">
+                    <emph rend="italic">Ce mépris, ce scepticisme que certains médias ont cultivé semble s’estomper aujourd’hui</emph>
+                </quote>
+                <quote xml:id="p1_GG_5" source="GG">
+                    <emph rend="italic">Nous faisons notre métier avec sérieux et obtenons des interviews pertinentes, y compris avec Emmanuel Macron. Ils ont peut-être ressenti de la jalousie en voyant Volodymyr Zelenskyy choisir de s’entretenir avec Hugo Travers, 27 ans, plutôt qu’avec Laurent Delahousse ou David Pujadas.</emph>
+                </quote>
+                <quote xml:id="p1_GG_6" source="GG">
+                    <emph rend="italic">Je n’étais pas conscient que tu étais aussi entouré</emph>
+                </quote>
+                
+            </div>
+
+            <div type="paragraphe" xml:id="p2">
+                <head>Les partenariats, le bât qui blesse</head>
+                <figure>
+                    <graphic
+                        url="https://www.meta-media.fr/wp-content/uploads/sites/33/2024/07/450548532-1188059529277785-8238789350926394128-n.jpeg?w=600"/>
+                    <desc>De gauche à droite, Anaïs Carayon, directrice de la rédaction d'Urbania
+                        France, Paul Larrouturou, reporter chez TF1 et Gaspard G, créateur de
+                        contenus</desc>
+                </figure>
+
+            </div>
+
+            <div type="paragraphe" xml:id="p3">
+                <head>Sourcer ses vidéos : une pratique journalistique devenue indispensable chez
+                    les créateurs de contenus</head>
+                <figure>
+                    <graphic
+                        url="https://www.meta-media.fr/wp-content/uploads/sites/33/2024/07/450078927-1212294386457689-7170854082142928124-n.jpeg?w=600"/>
+                    <desc>William Audureau, journaliste au Monde et Jean Massiet, vulgarisateur politique</desc>
+                </figure>
+                
+
+            </div>
+
+            <div type="paragraphe" xml:id="p4">
+                <head>L’avenir ?</head>
+                
+
+            </div>
+        </body>
+        <index>
+            <term/>
+        </index>
+        <back>
+            <divGen>
+                <head/>
+            </divGen>
+            <div>
+                <byline/>
+                <index>
+                    <term/>
+                </index>
+                <byline/>
+                <index>
+                    <term/>
+                </index>
+            </div>
+            <divGen>
+                <head/>
+            </divGen>
+            <postscript>
+                <index>
+                    <term/>
+                </index>
+                <l/>
+                <index>
+                    <term/>
+                </index>
+                <index>
+                    <term/>
+                </index>
+            </postscript>
+            <postscript>
+                <index>
+                    <term/>
+                </index>
+                <l/>
+                <index>
+                    <term/>
+                </index>
+                <index>
+                    <term/>
+                </index>
+            </postscript>
+        </back>
+        <index>
+            <term/>
+        </index>
+    </text>
+</TEI>
