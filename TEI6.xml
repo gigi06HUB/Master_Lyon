@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les nouvelles start-ups de l'info : le futur du journalisme</title>
+                <author>Meta-media Team</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>France Télévisions</publisher>
+                <date>2024-09-11</date>
+                <ref>https://www.meta-media.fr/2024/09/11/les-nouvelles-start-ups-de-linfo-le-futur-du-journalisme.html</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Les nouvelles start-ups de l'info : le futur du journalisme</title>
+                    <author>Meta-media Team</author>
+                    <affiliation>France Télévisions</affiliation>
+                    <publisher>Meta-media</publisher>
+                    <date>2024</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <list>
+                        <item>journalisme</item>
+                        <item>technologies immersives</item>
+                        <item>influenceurs</item>
+                        <item>start-ups</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="introduction">
+                <head>Introduction</head>
+                <p>Cet article explore comment les nouvelles technologies, les influenceurs et les changements sociaux redéfinissent le journalisme moderne.</p>
+            </div>
+        </front>
+        <body>
+            <div type="section" xml:id="section1">
+                <head>Les influenceurs dans le journalisme</head>
+                <p>L'article discute de l'émergence de créateurs de contenu comme Hugo Travers et leur rôle dans la démocratisation de l'information auprès des jeunes publics.</p>
+            </div>
+            <div type="section" xml:id="section2">
+                <head>Réalité virtuelle et journalisme immersif</head>
+                <p>Les technologies comme la réalité virtuelle et la réalité augmentée transforment la manière dont les journalistes racontent des histoires, offrant des expériences plus immersives et engageantes.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+
