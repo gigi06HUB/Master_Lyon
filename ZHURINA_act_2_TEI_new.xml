@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="file:/C:/Users/zhuri/Documents/Cours/Master/Loc%20Web/metamedia_article.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="file:/C:/Users/zhuri/Documents/Cours/3_Master/Loc%20Web/metamedia_article.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Au festival de journalisme de Couthures-sur-Garonne, les créateurs de
-                    contenus sur le devant de la scène</title>
+                <title>Edition d'article "Au festival de journalisme de Couthures-sur-Garonne, les créateurs de
+                    contenus sur le devant de la scène" en TEI</title>
                 <author>Zhurina Iuliia</author>
             </titleStmt>
             <publicationStmt>
@@ -43,16 +43,42 @@
                 <p> Fini le mépris de la presse traditionnelle envers les YouTubeurs : le festival
                     de journalisme de Couthures-sur-Garonne, organisé par le groupe Le Monde, et
                     parrainé par Camelia Jordana, a ouvert grand ses portes aux créateurs de
-                    contenus dits informatifs. </p>
+                    contenus dits informatifs.
+                </p>
                 <p> Jean Massiet, Gaspard G, et Charlie Danger, entre autres, ont répondu présents
                     pour partager les « secrets de fabrication » de ceux qui captivent les jeunes
                     sur les réseaux sociaux, surpassant ainsi les médias classiques. Leur influence
-                    sur l'information est telle qu'un intervenant s'interroge : « Est-il devenu has
-                    been, dans l'écosystème médiatique actuel, de raisonner encore en termes de
-                    journalisme traditionnel ? ». La frontière de plus en plus floue entre
-                    influenceur et journaliste ne mérite-t-elle pas d'être réévaluée ? </p>
+                    sur l'information est telle qu'un intervenant s'interroge :
+                </p>  
+                <q>« Est-il devenu has been, dans l'écosystème médiatique actuel, de raisonner encore en termes de
+                    journalisme traditionnel ? ».
+                </q>
+                <p>
+                    La frontière de plus en plus floue entre
+                    influenceur et journaliste ne mérite-t-elle pas d'être réévaluée ?
+                </p>
             </div>
         </front>
+
+        <keywords scheme="lcsh">
+            <list>
+                <item>Créateurs de contenu</item>
+                <item>Journalisme</item>
+                <item>Journaliste</item>
+                <item>Presse</item>
+                <item>Réseaux sociaux</item>
+                <item>Politique</item>
+                <item>Influenceur</item>
+                <item>Partenariat</item>
+                <item>Source</item>
+                <item>Rédaction</item>
+                <item>Audience</item>
+                <item>Contenu</item>
+                <item>YouTube</item>
+                <item>France</item>
+                <item>Chaîne</item>
+            </list>
+        </keywords>
 
         <body>
             <!--ACTEURS-->
@@ -66,7 +92,7 @@
                     </name>
                     <affiliation>Vulgarisateur en politique</affiliation>
                     
-                    <affiliation>Streamer sur <name type="org">Twitch</name></affiliation>
+                    <affiliation>Streamer sur <name type="media">Twitch</name></affiliation>
                     
                     <affiliation>Influenceur</affiliation>
                     
@@ -74,7 +100,6 @@
                     
                     <affiliation>Chef d’entreprise</affiliation>
                 </p>
-                
                 <!-- Gaspard G -->
                 <p xml:id="GG">
                     <name>
@@ -83,7 +108,7 @@
                     </name>
                     <affiliation>Créateur de contenu</affiliation>
                     
-                    <affiliation>Youtiber sur <name type="org">Youtube</name></affiliation>
+                    <affiliation>Youtiber sur <name type="media">Youtube</name></affiliation>
                 </p>
                 
                 <!-- Charlie Danger-->
@@ -103,6 +128,8 @@
                     </name>
                     <affiliation>Journaliste</affiliation>
                     <orgName>TF1</orgName>
+                    
+                    <affiliation>ancien membre de l'équipe <name type="media">Quotidien</name></affiliation>
                 </p>
                 
                 <!-- Anaïs Carayon -->
@@ -135,9 +162,11 @@
                 </p>
             </div>
 
-            <!--Paragraphe-->
+            <!--Paragraphe 1-->
             <div type="paragraphe" xml:id="p1">
                 <head xml:id="h1">Journaliste ou influenceur : une étiquette fluctuante</head>
+                
+                <!--Photo-->
                 <figure>
                     <graphic
                         url="https://www.meta-media.fr/wp-content/uploads/sites/33/2024/07/449851724-1589373084964864-8052671598646707212-n.jpeg?w=600"/>
@@ -157,7 +186,10 @@
                     <emph rend="italic">Je n’étais pas conscient que tu étais aussi entouré</emph>
                 </quote>
                 
+                <p><emph rend="strong">travaille avec une équipe de cinq salariés</emph></p>
+                
                 <!-- Jean Massiet -->
+                <p><emph rend="strong">il ne rentre pas dans la définition stricte de journaliste</emph></p>
                 <quote xml:id="p1_JM_1" source="JM">
                     <emph rend="italic">Mon métier va beaucoup plus loin parce que je suis aussi influenceur, producteur, chef d’entreprise</emph>
                 </quote>
@@ -173,10 +205,33 @@
                     <emph rend="italic">Je n’étais pas conscient que tu étais aussi entouré</emph>
                 </quote>
                 
+                <!-- Jean Massiet -->
+                <p>
+                    Jean Massiet partage ce sentiment et note
+                    <emph rend="strong">un effort de la presse écrite</emph>
+                    , qui publie désormais «
+                    <emph rend="italic">d’excellents articles </emph>
+                    » sur cet univers, avec «
+                    <emph rend="italic">des enquêtes approfondies et bien écrites</emph>
+                    ». Cependant, il souligne que
+                    <emph rend="strong">la télévision reste encore « <emph rend="italic">réticente au possible</emph> » à l’égard du monde du web</emph>
+                    , qui bouscule les codes de l’information depuis cinq ans.
+                </p>
+                
+                <!--Sans acteur-->
+                <p>Les médias traditionnels s’allient directement aux créateurs de contenus.</p>
+                <p>
+                    Le partenariat fonctionne de la manière suivante : 
+                    <emph rend="strong">une semaine après la diffusion de l'émission, <name type="media">France TV</name> perd les droits ou les co-partage pour permettre sa diffusion sur la chaîne privée d'Hugo Décrypte.</emph>
+                </p>
+                
             </div>
-
+            
+            <!--Paragraphe 2-->
             <div type="paragraphe" xml:id="p2">
                 <head>Les partenariats, le bât qui blesse</head>
+                
+                <!--Photo-->
                 <figure>
                     <graphic
                         url="https://www.meta-media.fr/wp-content/uploads/sites/33/2024/07/450548532-1188059529277785-8238789350926394128-n.jpeg?w=600"/>
@@ -184,74 +239,136 @@
                         France, Paul Larrouturou, reporter chez TF1 et Gaspard G, créateur de
                         contenus</desc>
                 </figure>
+                
+                <!-- Gaspard G -->
+                <p>Pour faire vivre cette nouvelle manière d’informer sur les réseaux sociaux, la plus grosse problématique reste le financement, estime Gaspard G.</p>
+                
+                <quote xml:id="p2_GG_1" source="GG">
+                    <emph rend="italic">Aujourd’hui, malheureusement, on ne dispose pas d’aides publiques, et notre génération n’a pas l’habitude de payer pour l’info</emph>
+                </quote>
+                <quote xml:id="p2_GG_2" source="GG">
+                    <emph rend="italic strong">« On fait avec nos armes pour pouvoir créer un modèle de revenu et payer nos équipes »</emph>
+                </quote>
+                <quote xml:id="p2_GG_3" source="GG">
+                    <emph rend="italic strong">« Pendant une minute, il peut m’arriver de parler d’un VPN, d’une marque, d’un service »</emph>
+                </quote>
+                
+               <p>
+                   Selon la charte de Munich, le "<emph rend="italic">Saint Graal du journalisme</emph>", il ne faut "<emph rend="italic">jamais confondre le métier de journaliste avec celui du publicitaire ou du propagandiste ; n'accepter aucune consigne, directe ou indirecte, des annonceurs</emph>".
+               </p>
+                
+                <!-- Paul Larrouturou -->
+                <quote xml:id="p2_PL_1" source="PL">
+                    <emph rend="italic">Je te considère comme un confrère. La grande question reste le modèle économique. Moi, je suis salarié d’une rédaction, j’ai le confort d’avoir un salaire qui tombe tous les mois</emph>
+                </quote>
+                
+                <!--Texte-->
+                <p>
+                    Pour <name type="media">Backseat</name>, le fonctionnement repose sur un modèle similaire. L'émission est majoritairement financée par du financement participatif (au moins les deux tiers), tandis que le reste provient de partenariats.
+                    <emph rend="strong">En tout, le budget annuel s'élève à un demi-million d'euros.</emph>
+                </p>
+                
+                <!-- Jean Massiet -->
+                <quote xml:id="p2_JM_1" source="JM">
+                    <emph rend="italic">on public ne m'en veut absolument pas pour les partenariats, parce que je leur explique à quoi ils servent. Je m'assure toujours que le partenariat ait un intérêt éditorial. Cela ne m'intéresse pas de faire de la publicité pour une marque dont je me fiche. En revanche, interviewer le PDG d'une entreprise pour poser des questions citoyennes et faire le lien avec ma chaîne où je parle politique, ça m'intéresse </emph>
+                </quote>
+                <p><emph rend="strong">La plupart de ses clients sont des institutions</emph> souhaitant s'adresser aux jeunes</p>
+                <quote xml:id="p2_JM_2" source="JM">
+                    <emph rend="italic">pas forcément pour faire passer des idées, juste pour dire bonjour</emph>
+                </quote>
+                <quote xml:id="p2_JM_3" source="JM">
+                    <emph rend="italic">L'enjeu, c'est la confiance et la crédibilité envers ton public. Il n'y a pas forcément de règles écrites. Il y a une loi qui encadre les influenceurs, mais elle a été rédigée avec les pieds</emph>
+                </quote>
+                <quote xml:id="p2_JM_4" source="JM">
+                    <emph rend="italic">L'important est de ne pas perdre la confiance que les gens placent en nous.<emph rend="strong">C'est un contrat de confiance, une sorte de common law qui se développe avec le temps entre les influenceurs et leur public, en l'absence de règles plus précises imposées par les plateformes.</emph></emph>
+                </quote>
+                
+                <!-- Vincent Manilève -->
+                <p>
+                    Par ailleurs, <emph rend="strong">cette transparence est de plus en plus demandée par l'audience</emph>, rappelle le journaliste <name>Vincent Manilève</name>, notamment depuis les polémiques sur les placements de produits effectués par les <emph rend="u" source="https://www.strategies.fr/actualites/agences/LQ2526210C/influvoleurs-une-etiquette-qui-colle-la-peau.html">« influvoleurs ».</emph> 
+                </p>
 
             </div>
 
+            <!--Paragraphe 3-->
             <div type="paragraphe" xml:id="p3">
-                <head>Sourcer ses vidéos : une pratique journalistique devenue indispensable chez
-                    les créateurs de contenus</head>
+                <head>Sourcer ses vidéos : une pratique journalistique devenue indispensable chez les créateurs de contenus</head>
+                
+                <!--Photo-->
                 <figure>
                     <graphic
                         url="https://www.meta-media.fr/wp-content/uploads/sites/33/2024/07/450078927-1212294386457689-7170854082142928124-n.jpeg?w=600"/>
                     <desc>William Audureau, journaliste au Monde et Jean Massiet, vulgarisateur politique</desc>
                 </figure>
                 
+                <!-- Jean Massiet -->
+                <quote xml:id="p3_JM_1" source="JM">
+                    <emph rend="italic strong">« Le public est un outil de contrôle démocratique »</emph>
+                </quote>
+                <p>
+                    Selon une étude du <name type="media">Financial Times</name>, avoir des sources fiables, en lesquelles les jeunes peuvent avoir confiance, arrive en priorité dans les demandes des jeunes.
+                </p>
+                
+                <!-- Vincent Manilève -->
+                <p>
+                    <emph rend="strong">Depuis le bad buzz de <name type="nickname">Squeezie</name> (<name>Lucas Hauchard</name>), la vigilance du public a redoublé</emph>
+                </p>
+                <quote xml:id="p3_VM_1" source="VM">
+                    <emph rend="italic"> Ça reste une vidéo "théorie du complot" </emph>
+                </quote>
+                <quote xml:id="p3_VM_2" source="VM">
+                    <emph rend="italic">C'était une vidéo de désinformation massive, alors qu'il avait une responsabilité éditoriale</emph>
+                </quote>
+                
+                <!-- Gaspard G -->
+                <p>
+                    Lorsqu'il a commencé à réaliser des vidéos avec son monteur, <emph rend="strong">il a été plongé dans un « <emph rend="italic">Far West total</emph> », ne disposant pas comme dans les grandes rédactions de services juridiques.</emph>
+                </p>
+                <quote xml:id="p3_GG_1" source="GG">
+                    <emph rend="italic">Un nombre incalculable de nos vidéos ont été retirées de la plateforme parce que nous n'avions pas tous les droits nécessaires pour citer des archives de <name type="media">TF1</name>, <name type="media">France 2</name>, <name type="media">Blast</name>, <name type="media">Mediapart</name>. Je pensais que cela relevait du droit de citation, mais ce n'était absolument pas le cas</emph>
+                </quote>
+                
+                <p>
+                    Aujourd'hui, le YouTubeur a amélioré ses pratiques et s'appuie sur <emph rend="strong">l'<name type="media">INA</name>, qui propose un forfait permettant aux créateurs de contenus d'utiliser les archives pour un total de <num>1000</num> euros par an.</emph>
+                </p>
+                
+                <!-- Vincent Manilève -->
+                <note xml:id="p3_VM_3" source="VM">
+                    Pour que l’apprentissage continue de manière pérenne,<emph rend="strong">l’<name type="organisation">UNESCO</name> a ainsi un mandat sur l’éducation aux médias et met en place un programme pour ces créateurs de contenus qui les aident à « <emph rend="italic">avoir les bons codes pour informer</emph> »</emph>
+                </note>
 
             </div>
-
+            
+            <!--Paragraphe 4-->
             <div type="paragraphe" xml:id="p4">
                 <head>L’avenir ?</head>
                 
-
+                <!-- Jean Massiet -->
+                <p>Comment les créateurs de contenu voient-ils l’avenir ? « <emph rend="italic">Pas à la télévision</emph> »</p>
+                <quote xml:id="p4_JM_1" source="JM">
+                    <emph rend="italic">Si la télé reste majeure en termes d’audience, en termes de génération, il y a un décrochage qui est absolument phénoménal</emph>
+                </quote>
+                <p><emph rend="strong">Aucune télévision n’était représentée devant les canapés.</emph></p>
+                <quote xml:id="p4_JM_2" source="JM">
+                    <emph rend="italic">Cette modification anthropologique est une très mauvaise nouvelle pour la télévision, qui va disparaître des salons des gens</emph>
+                </quote>
+                <quote xml:id="p4_JM_3" source="JM">
+                    <emph rend="italic">C’est scandaleusement cher de maintenir à flot une chaîne de télévision. Sur <name type="media">LCP</name>, <name type="organisation">Public Sénat</name>, c’est <num>7,5 millions</num> d’euros d’infrastructures par an !</emph>
+                </quote>
+                
+                <!-- Gaspard G -->
+                <p>
+                    <name>Gaspard G</name> anticipe <emph rend="strong">une spécialisation progressive des créateurs de contenus dans les cinq à dix prochaines années.</emph>
+                </p>
+                <quote xml:id="p4_GG_1" source="GG">
+                    <emph rend="italic">À l'heure actuelle, <name>Hugo Décrypte</name> fait du JT, je couvre l'actualité froide, et <name>Charles Villa</name> s'intéresse aux sujets d'actualité brûlants… Nous verrons une montée en puissance de <affiliation>YouTubeurs</affiliation> qui choisiront de se spécialiser dans des créneaux particuliers du journalisme. Il est aussi essentiel de permettre à ces jeunes structures de trouver leur équilibre financier, car les coûts peuvent être très élevés</emph>
+                </quote>
+                
+                <!-- Fin -->
+                <p>
+                    La question demeure : comment les médias traditionnels et les créateurs de contenu pourront-ils collaborer efficacement pour offrir une information de qualité dans un paysage en perpétuelle mutation ? La réponse pourrait bien façonner le journalisme de demain.
+                </p>
             </div>
         </body>
-        <index>
-            <term/>
-        </index>
-        <back>
-            <divGen>
-                <head/>
-            </divGen>
-            <div>
-                <byline/>
-                <index>
-                    <term/>
-                </index>
-                <byline/>
-                <index>
-                    <term/>
-                </index>
-            </div>
-            <divGen>
-                <head/>
-            </divGen>
-            <postscript>
-                <index>
-                    <term/>
-                </index>
-                <l/>
-                <index>
-                    <term/>
-                </index>
-                <index>
-                    <term/>
-                </index>
-            </postscript>
-            <postscript>
-                <index>
-                    <term/>
-                </index>
-                <l/>
-                <index>
-                    <term/>
-                </index>
-                <index>
-                    <term/>
-                </index>
-            </postscript>
-        </back>
-        <index>
-            <term/>
-        </index>
     </text>
 </TEI>
