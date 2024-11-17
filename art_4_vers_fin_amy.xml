@@ -34,6 +34,51 @@
     </teiHeader>
     <text>
         <body>
+            <!-- personnes citées -->
+            <div>
+                <p>
+                    <name xml:id="J-FP">
+                        <forename>Jean-François</forename>
+                        <surname>Breviere</surname>
+                        <affiliation>Délégué syndical à <name type="organisation">UNSA</name> de
+                            l'entrepôt <name type="entreprise">Lacoste</name> à <name type="ville"
+                                >Troyes</name></affiliation>
+                    </name>
+                    <name xml:id="ML">
+                        <forename>Maxime</forename>
+                        <surname>Loisel</surname>
+                    </name>
+                    <name xml:id="GL">
+                        <forename>Guillaume</forename>
+                        <surname>Lacroix</surname>
+                    </name>
+                    <name xml:id="AB">
+                        <forename> Axel</forename>
+                        <surname>Bossard</surname>
+                        <affiliation> Chroniqueur </affiliation>
+                        <affiliation type="media">Radio France</affiliation>
+                    </name>
+                    <name xml:id="M-E">
+                        <forename> Marie </forename>
+                        <affiliation> etudiante</affiliation>
+                    </name>
+                    <name xml:id="HT">
+                        <forename>Hugo </forename>
+                        <surname>Travers</surname>
+                        <affiliation> Youtubeur sur <name type="media"
+                        >Youtube</name></affiliation></name>
+                    <name xml:id="SQZ">
+                        <forename>Squeezie</forename>
+                        <affiliation type="occupation">Youtubeur sur <name type="media"
+                                >Youtube</name></affiliation>
+                    </name>
+                    <name xml:id="LST">
+                        <forename>Lena Situations</forename>
+                        <affiliation>Influenceuse sur <name type="média" xml:id="IG"
+                                >Instagram</name></affiliation>
+                    </name>
+                </p>
+            </div>
             <div type="article">
                 <div subtype="sous-partie" xml:id="par-1">
                     <head type="sous-titre">Une couverture médiatique qui manque de clarté</head>
@@ -43,30 +88,17 @@
                     <q>« La date limite pour s’inscrire sur les listes électorales c’est
                         aujourd’hui. Faites-le ça prend deux minutes ! »</q>
                     <!--Citation dans le texte-->
-                    <!-- personnes citées -->
-                    <p>
-                        <name xml:id="J-FP">
-                            <forename>Jean-François</forename>
-                            <surname>Breviere</surname>
-                            <affiliation>Délégué syndical à <name type="organisation">UNSA</name> de
-                                l'entrepôt <name type="entreprise">Lacoste</name> à <name
-                                    type="ville">Troyes</name></affiliation>
-                        </name>
-                        <name xml:id="ML">
-                            <forename>Maxime</forename>
-                            <surname>Loisel</surname>
-                        </name>
-                    </p>
+
                     <figure>
                         <graphic
                             url="https://x.com/desesprite/status/1800217739505905802?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1800217739505905802%7Ctwgr%5E494f2c988f626eadb1104f5233047eb8d9af9f8d%7Ctwcon%5Es"
                         />
                     </figure>
                     <p>Mais l'intérêt soudain suscité par la dissolution de l'Assemblée nationale
-                        par Emmanuel Macron ravive les débats.<lb/><q>« Jamais je n'ai vu autant de
-                            discussions et d'interrogations parmi les collègues » <name
-                                xml:id="J-FP"/></q>
-                        <affiliation>Mediapart</affiliation><lb/> La dernière dissolution de
+                        par <name type="personne">Emmanuel Macron</name> ravive les débats.<lb/><q>«
+                            Jamais je n'ai vu autant de discussions et d'interrogations parmi les
+                            collègues » <name xml:id="J-FP"/></q>
+                        <name type="media">Mediapart</name><lb/> La dernière dissolution de
                         l'Assemblée remonte à 1997, laissant médias et citoyens désarmés face aux
                         enjeux complexes de cette décision politique. </p>
                     <p> En parallèle, les médias naviguent dans un environnement où la
@@ -92,12 +124,14 @@
                     <head type="sous-titre">La désinformation s’invite aux élections</head>
                     <desc>À deux semaines des élections législatives, la menace de la désinformation
                         pèse lourdement sur le scrutin.le programme russe Matriochka a intensifié
-                        ses activités les 8 et 9 juin 2024.</desc>
-                    <p>Le service de vigilance et de protection contre les ingérences numériques
-                        étrangères (VIGINUM), rattaché au ministère des Armées, a confirmé ces
-                        activités dans son rapport du 10 juin. Ce document révèle que de nombreux
-                        faux articles, imitant des publications de médias tels que Le Parisien, Le
-                        Point, et Le Monde ont été diffusés sur les réseaux sociaux. Ces articles,
+                        ses activités les <date>8 et 9 juin 2024</date>.</desc>
+                    <p><name type="org">Le service de vigilance et de protection contre les
+                            ingérences numériques étrangères (VIGINUM)</name>, rattaché au ministère
+                        des Armées, a confirmé ces activités dans son rapport du <date>10
+                            juin</date>. Ce document révèle que de nombreux faux articles, imitant
+                        des publications de médias tels que <name type="media">Le Parisien</name>,
+                            <name type="media">Le Point</name>, et <name type="media" xml:id="LME">Le
+                            Monde</name> ont été diffusés sur les réseaux sociaux. Ces articles,
                         largement relayés par des bots, visaient à saturer les capacités des
                         cellules de fact-checking « tout en promouvant des contenus servant les
                         intérêts russes ». Il est possible de détecter ces faux articles en
@@ -113,14 +147,6 @@
                 <div subtype="sous-partie" xml:id="par-3">
                     <head subtype="sous-titre">Surexposition médiatique de l’extrême droite dans les
                         médias traditionnels ?</head>
-                    <!-- personnes citees -->
-                    <p>
-                        <name xml:id="GL">
-                            <forename>Guillaume</forename>
-                            <surname>Lacroix</surname>
-                        </name>
-                    </p>
-                    <!-- personnes citees -->
                     <desc>les chaînes de télévision françaises ont peiné à couvrir efficacement les
                         élections européennes et l'annonce de la dissolution de l'Assemblée
                         nationale par <name type="personne">Emmanuel Macron</name>.</desc>
@@ -138,17 +164,24 @@
                 <div subtype="sous-partie" xml:id="par-4">
                     <head subtype="sous-titre">Les journalistes influenceurs, un travail de
                         vulgarisation nécessaire</head>
-                    <p>
-                        <name xml:id="HT">
-                            <forename>Hugo </forename>
-                            <surname>Travers</surname>
-                            <affiliation> Youtubeur sur <name type="media"
-                                >Youtube</name></affiliation>
-                        </name>
-                    </p>
                     <desc>Pour rendre les élections accessibles au plus grand nombre, il n'hésite
                         pas à simplifier les informations et à présenter des infographies claires,
                         notamment sur la composition du Parlement européen.</desc>
+
+                    <p><name xml:id="HT">Hugo Travers</name> dort-il la nuit ? Avec une présence
+                        assidue lors de la soirée électorale, un livestream de 1h30, et une vidéo de
+                        10 minutes finalisée à 1h du matin, les équipes de <name type="media"
+                            >HugoDécrypte</name> semblent ne pas connaître de répit. Le travail du
+                        vidéaste suivi par <num>3,7 millions</num> de personnes sur Instagram
+                        participe à démystifier le processus électoral complexe. Il nous explique
+                        par exemple comment faire une procuration, ou le fonctionnement des
+                        élections législatives. Pour rendre les élections accessibles au plus grand
+                        nombre, il n'hésite pas à simplifier les informations et à présenter des
+                        infographies claires, notamment sur la composition du <name
+                            type="institution">Parlement européen</name>. Il y détaille les noms des
+                        partis français et leurs affiliations européennes et facilite ainsi la
+                        compréhension pour ceux qui se perdent dans les dénominations des partis
+                        européens.</p>
                     <figure>
                         <graphic
                             url="https://www.meta-media.fr/wp-content/uploads/sites/33/2024/06/hugo-decrypte-inte.jpg?w=600"
@@ -161,98 +194,79 @@
                         quelques temps déjà. Ils proposent désormais plus de formats attrayants et
                         explicatifs sur les réseaux sociaux pour susciter l’intérêt.</desc>
                     <!-- description -->
+                    <p> <name type="media" xml:id="LME">Le Monde</name> utilise régulièrement son compte <name xml:id="IG">Instagram</name> pour diffuser des vidéos
+                        courtes et explicatives, présentées verticalement, dans un effort
+                        pédagogique efficace. </p>
                     <figure>
                         <graphic url="https://www.instagram.com/p/C8CyQxLKgSP/"/>
                     </figure>
                     <p>Des nouveaux formats émergent également.</p>
                     <figure
-                        source="https://www.meta-media.fr/wp-content/uploads/sites/33/2024/06/quotidien-matin.png?w=600"/>
+                        source="https://www.meta-media.fr/wp-content/uploads/sites/33/2024/06/quotidien-matin.png?w=600"
+                    />
                 </div>
-                    <div subtype="sous-partie" xml:id="par-6">
-                        <head subtype="sous-titre">Les journalistes activistes, ces nouveaux
-                            influenceurs</head>
-                        <desc/>
-                        <!-- Description -->
-                        <figure>
-                            <graphic
-                                url="https://www.meta-media.fr/wp-content/uploads/sites/33/2024/06/preparez-vous-bagarre-inte.jpg?w=600"
-                            />
-                        </figure>
-                        <note>Compte Instagram de "Préparez-vous pour la bagarre"</note>
-                        <!-- texte alternative -->
-                        <p>Plusieurs médias indépendants ont également pris position</p>
-                        <p>Information et divertissement sont de plus en plus imbriqués, au service
-                            de la cause défendue.</p>
-                    </div>
-                    <div subtype="sous-partie" xml:id="par-7">
-                        <head subtype="sous-titre">Une drôle de bataille sur les réseaux
-                            sociaux</head>
-                        <!-- personnes citées -->
-                        <p>
-                            <name xml:id="AB">
-                                <forename> Axel</forename>
-                                <surname>Bossard</surname>
-                                <affiliation> Chroniqueur </affiliation>
-                                <affiliation type="media">Radio France</affiliation>
-                            </name>
-                            <name xml:id="M-E">
-                                <forename> Marie </forename>
-                                <affiliation> etudiante</affiliation>
-                            </name>
-                        </p>
-                        <!-- personnes citées -->
-                        <desc>Sur TikTok, un nouveau phénomène fait rage : les « edits », des vidéos
-                            éditées mettant en scène diverses personnalités politiques. Le but ? Les
-                            rendre « cools ».</desc>
-                        <figure>
-                            <graphic url="https://www.tiktok.com/@sht._sf/video/7377789779292720416"/>
-                            <note type="alt">Edit de Jordan Bardella, tête de liste du RN.</note>
-                        </figure>
-                        <q> « Je souhaite créer une communauté de créateurs de contenus de gauche
-                            qui permettrait d’inonder les réseaux ». Selon lui, ces contenus seront
-                            accessibles à tous, et fonctionneront comme des « tracts numériques
-                                »<name xml:id="AB"/></q>
-                        <q>« Les gens vont aller regarder ce que ces personnalités disent parce
-                            qu’ils les trouvent charismatiques et peut-être qu’avec ça, les idées
-                            vont les atteindre ».<name xml:id="M-E"/></q>
-                        <figure>
-                            <graphic url="tiktok"/>
-                            <note type="alt">Edit de Sébastien Delogu, député LFI</note>
-                        </figure>
-                        <p> Là où seul le journaliste faisait office de relais médiatique il y a
-                            quelques années, le paysage informationnel évolue, laissant place à de
-                            nouveaux acteurs pour influencer le débat public.</p>
-                    </div>
-                    <div subtype="sous-partie" xml:id="par-8">
-                        <head subtype="sous-titre">Et les vrais influenceurs dans tout cela ?</head>
-                        <p>
-                            <name xml:id="SQZ">
-                                <forename>Squeezie</forename>
-                                <affiliation type="occupation">Youtubeur sur <name type="media"
-                                        >Youtube</name></affiliation>
-                            </name>
-                            <name xml:id="LST">
-                                <forename>Lena Situations</forename>
-                                <affiliation>Influenceuse sur <name type="média"
-                                    >Instagram</name></affiliation>
-                            </name>
-                        </p>
-                        <desc>Certains influenceurs mobilisent activement leurs communautés pour
-                            encourager la participation électorale. </desc>
-                        <q> « Je n’ai jamais voulu vous parler politique et rentrer dans les jeux
-                            des partis […] Mais je pense que s’opposer fermement à une idéologie
-                            extrême qui prône la haine et la discrimination va au-delà d’une
-                            quelconque prise de position politique »<name xml:id="SQZ"/></q>
-                        <q> « J’ai reçu beaucoup de messages : 'Je serai en vacances le jour du
-                            vote'. Si tu es en vacances, pas de souci [...], fais une procuration
-                                »<name xml:id="LST"/></q>
-                        <p>Sur X, les internautes encouragent les influenceurs qu'ils suivent à eux
-                            aussi s’engager.</p>
-                        <figure>
-                            <graphic url="https://www.instagram.com/p/C8MoUsdMgC4/"/>
-                        </figure>
-                    </div>
+                <div subtype="sous-partie" xml:id="par-6">
+                    <head subtype="sous-titre">Les journalistes activistes, ces nouveaux
+                        influenceurs</head>
+                    <desc/>
+                    <!-- Description -->
+                    <figure>
+                        <graphic
+                            url="https://www.meta-media.fr/wp-content/uploads/sites/33/2024/06/preparez-vous-bagarre-inte.jpg?w=600"
+                        />
+                    </figure>
+                    <note>Compte <name xml:id="IG">Instagram</name> de "Préparez-vous pour la
+                        bagarre"</note>
+                    <!-- texte alternative -->
+                    <p>Plusieurs médias indépendants ont également pris position</p>
+                    <p>Information et divertissement sont de plus en plus imbriqués, au service de
+                        la cause défendue.</p>
                 </div>
+                <div subtype="sous-partie" xml:id="par-7">
+                    <head subtype="sous-titre">Une drôle de bataille sur les réseaux sociaux</head>
+                    <desc>Sur TikTok, un nouveau phénomène fait rage : les « edits », des vidéos
+                        éditées mettant en scène diverses personnalités politiques. Le but ? Les
+                        rendre « cools ».</desc>
+                    <figure>
+                        <graphic url="https://www.tiktok.com/@sht._sf/video/7377789779292720416"/>
+                        <note type="alt">Edit de <name type="personne" xml:id="JB">Jordan
+                                Bardella</name>, tête de liste du RN.</note>
+                    </figure>
+                    <q> « Je souhaite créer une communauté de créateurs de contenus de gauche qui
+                        permettrait d’inonder les réseaux ». Selon lui, ces contenus seront
+                        accessibles à tous, et fonctionneront comme des « tracts numériques »<name
+                            xml:id="AB"/></q>
+                    <q>« Les gens vont aller regarder ce que ces personnalités disent parce qu’ils
+                        les trouvent charismatiques et peut-être qu’avec ça, les idées vont les
+                        atteindre ».<name xml:id="M-E"/></q>
+                    <figure>
+                        <graphic url="tiktok"/>
+                        <note type="alt">Edit de <name type="personne" xml:id="SD">Sébastien
+                                Delogu</name>, <affiliation type="occupation">député
+                                LFI</affiliation></note>
+                    </figure>
+                    <p> Là où seul le journaliste faisait office de relais médiatique il y a
+                        quelques années, le paysage informationnel évolue, laissant place à de
+                        nouveaux acteurs pour influencer le débat public.</p>
+                </div>
+                <div subtype="sous-partie" xml:id="par-8">
+                    <head subtype="sous-titre">Et les vrais influenceurs dans tout cela ?</head>
+                    <desc>Certains influenceurs mobilisent activement leurs communautés pour
+                        encourager la participation électorale. </desc>
+                    <q> « Je n’ai jamais voulu vous parler politique et rentrer dans les jeux des
+                        partis […] Mais je pense que s’opposer fermement à une idéologie extrême qui
+                        prône la haine et la discrimination va au-delà d’une quelconque prise de
+                        position politique »<name xml:id="SQZ"/></q>
+                    <q> « J’ai reçu beaucoup de messages : 'Je serai en vacances le jour du vote'.
+                        Si tu es en vacances, pas de souci [...], fais une procuration »<name
+                            xml:id="LST"/></q>
+                    <p>Sur X, les internautes encouragent les influenceurs qu'ils suivent à eux
+                        aussi s’engager.</p>
+                    <figure>
+                        <graphic url="https://www.instagram.com/p/C8MoUsdMgC4/"/>
+                    </figure>
+                </div>
+            </div>
         </body>
     </text>
 </TEI>
