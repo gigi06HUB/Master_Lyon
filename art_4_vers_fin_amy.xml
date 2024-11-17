@@ -80,6 +80,7 @@
                 </p>
             </div>
             <div type="article">
+
                 <div subtype="sous-partie" xml:id="par-1">
                     <head type="sous-titre">Une couverture médiatique qui manque de clarté</head>
                     <desc>Le 10 juin, lendemain de l'annonce de la dissolution de l'Assemblée
@@ -88,7 +89,6 @@
                     <q>« La date limite pour s’inscrire sur les listes électorales c’est
                         aujourd’hui. Faites-le ça prend deux minutes ! »</q>
                     <!--Citation dans le texte-->
-
                     <figure>
                         <graphic
                             url="https://x.com/desesprite/status/1800217739505905802?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1800217739505905802%7Ctwgr%5E494f2c988f626eadb1104f5233047eb8d9af9f8d%7Ctwcon%5Es"
