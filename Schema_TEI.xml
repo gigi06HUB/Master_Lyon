@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Titre de fichier</title>
+                <author>Auteur de ce fichier</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Etablisement d'auteur de ce fichier</publisher>
+                <date>Date de publication de ce fichier</date>
+                <ref/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Titre d'artice/texte</title>
+                    <author>Auteur d'artice/texte</author>
+                    <affiliation>Affiliation d'auteur d'artice/texte</affiliation>
+                    <publisher>Etablisement d'auteur d'artice/texte</publisher>
+                    <date>Date de publication d'auteur d'artice/texte</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        
+        <front>
+            <div type="introduction">
+                <head>Titre</head>
+                <figure>
+                    <graphic url="url_d_image"/>
+                    <desc>Description ou texte alternatif d'image</desc>
+                </figure>
+                <p>Texte</p>
+            </div>
+        </front>
+        
+        <keywords>
+            <list>
+                <item>mots-clé</item>
+                <item>mots-clé</item>
+            </list>
+        </keywords>
+        
+        <body>
+            <div type="acteurs">
+                <p xml:id="PN1">
+                    <name>
+                        <forename>Prénome</forename>
+                        <surname>Nom</surname>
+                    </name>
+                    <affiliation>Affiliation du personne<name type="organisation">Nom d'organisation</name></affiliation>
+                </p>
+                <p xml:id="PN2">
+                    <name>
+                        <forename>Prénome</forename>
+                        <surname>Nom</surname>
+                    </name>
+                    <affiliation>Affiliation du personne</affiliation>
+                    <orgName>Nom d'organisation</orgName>
+                </p>
+            </div>
+            
+            <div type="section" xml:id="section1">
+                <head>titre</head>
+                <figure>
+                    <graphic url="url_d_image"/>
+                    <desc>Description ou texte alternatif d'image</desc>
+                </figure>
+                <p>Texte</p>
+                <quote xml:id="PN1">Citation d'acteur</quote>
+            </div>
+        </body>
+    </text>
+</TEI>
+    
